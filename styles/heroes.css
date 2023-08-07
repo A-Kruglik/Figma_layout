@@ -1,0 +1,50 @@
+.heroes-container__heroes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroes-container__heroes__hero__description > h2 {
+    color: var(--color-black);
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.heroes-container__heroes__hero__description > h3 {
+    color: var(--color-orange);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.heroes-container__heroes__hero__description > h4 {
+    color: var(--color-grey);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 17px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contacts {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 37px;
+}
+
+.hero-icon {
+    width: 39px;
+    height: 39px;
+    margin: 0 6px;
+}
