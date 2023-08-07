@@ -1,38 +1,36 @@
 .container-icon__icons {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-    row-gap: 10px;
-    column-gap: 10px;
-  }
-  
-  .container-icon__icons__icon {
-    width: 370px;
-    height: 307px;
-    margin: 90px 0;
-    
-  }
-  
-  .icon-title {
-    color: var(--color-black);
-    font-size: 24px;
-    font-weight: 900;
-    text-transform: uppercase;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .icon-description {
-    padding: 20px 30px;
-    color: var(--color-grey);
-    flex-wrap: wrap;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-  }
-  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.container-icon__icons__icon {
+  width: 370px;
+  height: 307px;
+  margin: 90px 0;
+}
+
+.icon-title {
+  color: var(--color-black);
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon-description {
+  padding: 20px 30px;
+  color: var(--color-grey);
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+}
